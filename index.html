@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Surprise 4 U</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- mycss -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="timeline.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Ms+Madi&family=Rubik&display=swap" rel="stylesheet" />
+    <style>
+      .confetti {
+        /* max-width: 1350px; */
+        display: block;
+        margin: 0 auto;
+        /* border: 1px solid #ddd; */
+        user-select: none;
+        position: fixed;
+      }
+    </style>
+  </head>
+  <canvas class="confetti" id="canvas"></canvas>
+  <body>
+    <!-- jumbotron -->
+    <section class="jumbotron" id="JumbotronSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-9">
+            <h1 class="display-1 fw-bold text-white" id="duar">DUARR!!!</h1>
+            <p class="lead fw-bold" id="anivtext">Happy 3rd Year Aniversarry Sayang!</p>
+          </div>
+          <div class="col text-center">
+            <i class="fa fa-solid fa-heart" id="loveicon"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ucapan -->
+    <div class="ucapan">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>
+              <p>
+                Happy anniversary 3 tahun sayangg, terima kasih ya buat selama ini, terima kasih udah nemenin aku selama 3 tahun semoga kita langgeng selamanya.. belom bisa ngasih apa-apa dan ngejak maen soalnya masih berjuang merantau
+                wkwkwk, sukses buat kita di kota perantauan. jaga diri jaga hati yaa.. I LOVE YOU SOOMUCHH SAYANGGG
+                <br />
+                <i class="fa fa-solid fa-heart fa-2x"></i><i class="fa fa-solid fa-heart fa-2x"></i><i class="fa fa-solid fa-heart fa-2x"></i>
+              </p>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end ucapan -->
+
+    <!-- timeline -->
+    <div>
+      <h2 class="text-center my-5 fw-bold display-2" id="journeytext" style="font-family: 'MS Madi', cursive; letter-spacing: 0.5rem">This Is Our Journey</h2>
+      <div class="timeline">
+        <div class="containertimeline left">
+          <div class="content">
+            <h2>Aug 2019</h2>
+            <p>First Time We Start Chatting</p>
+          </div>
+        </div>
+        <div class="containertimeline right">
+          <div class="content">
+            <h2>19 Sep 2019</h2>
+            <p>First time we going out together & and Im Confessed my Feeling to You</p>
+          </div>
+        </div>
+        <div class="containertimeline left">
+          <div class="content">
+            <h2>2019 - 2020</h2>
+            <p>We had a wonderful first year together, filled with more joy than sadness. We began breaking down our shyness with each other and becoming more comfortable with each other by jokes that made us laugh.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end timeline -->
+
+    <!-- akhir jumbotron -->
+    <!-- section 1 -->
+    <div id="sec1color">
+      <div class="container text-center pt-xl-5 pb-5">
+        <div class="row">
+          <div class="col">
+            <div class="h3">First Year</div>
+            <!-- carousel -->
+            <div id="carouselExampleDark1" class="carousel carousel-dark slide carousel-fade mb-2" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="assets/2019-2020/a4d2dbe0-ccd7-47b8-b318-8c4c3684dcd5.jpg" class="d-block w-25" alt="gambar2020" />
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="assets/2019-2020/IMG_20201201_163548.jpg" class="d-block w-25" alt="gambar2020" />
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/2019-2020/IMG-20200527-WA0004.jpg" class="d-block w-25" alt="gambar2020" />
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/2019-2020/IMG-20200819-WA0002.jpg" class="d-block w-25" alt="gambar2020" />
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/2019-2020/IMG-20200819-WA0003.jpg" class="d-block w-25" alt="gambar2020" />
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/2019-2020/IMG_20200824_152907_705.jpg" class="d-block w-25" alt="gambar2020" />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!-- akhir carousel -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir section 1 -->
+    <hr class="border-2 border border-dark border1" />
+    <div style="height: 150px; overflow: hidden">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+        <path d="M-5.92,38.00 C334.93,311.36 343.40,-65.61 507.05,79.45 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #57cc99"></path>
+      </svg>
+    </div>
+    <!-- quote section -->
+    <div id="quotebg">
+      <div class="container-sm text-center font-monospace" id="QuoteSection">
+        <div class="row">
+          <div class="col">
+            <blockquote class="blockquote">
+              <p class="fw-bold">"To the world, you may be one person, but to one person you are the world."</p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir quote section -->
+    <div style="height: 150px; overflow: hidden">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+        <path d="M-3.67,26.16 C250.27,191.95 238.99,-76.45 501.97,52.80 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #57cc99"></path>
+      </svg>
+    </div>
+
+    <!-- timeline year 2 -->
+    <div>
+      <h2 class="text-center my-5 fw-bold display-3" style="font-family: 'MS Madi', cursive; letter-spacing: 0.5rem">Year 2</h2>
+      <div class="timeline">
+        <div class="containertimeline left">
+          <p></p>
+          <div class="content">
+            <h2>April 2021</h2>
+            <p>First time we hunting photo together in batu and still shy to pose each other</p>
+          </div>
+        </div>
+        <div class="containertimeline right">
+          <div class="content">
+            <h2>June 2021</h2>
+            <p>First time we going out together to the themepark JTP1 and it turned into our very first memorable experience.</p>
+          </div>
+        </div>
+        <div class="containertimeline left">
+          <p></p>
+          <div class="content">
+            <h2>19 Sept 2021</h2>
+            <p>We going to the beach for the first time as a couple to celebrate our 2nd anniversary.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end timeline year 2 -->
+
+    <!-- section 2 -->
+    <div class="container text-center pt-xl-5 pb-5">
+      <div class="row">
+        <div class="col">
+          <div class="h2">2021</div>
+          <!-- carousel -->
+          <div id="carouselExampleDark2" class="carousel carousel-dark slide carousel-fade mb-2" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="7" aria-label="Slide 8"></button>
+              <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="8" aria-label="Slide 9"></button>
+              <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="9" aria-label="Slide 10"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active"><img src="assets/2021/IMG-20210103-WA0005.jpg" class="d-block w-25" alt="..." /></div>
+              <div class="carousel-item"><img src="assets/2021/IMG-20210730-WA0021.jpg" class="d-block w-25" alt="..." /></div>
+              <div class="carousel-item"><img src="assets/2021/2021-06-05-062759458.jpg" class="d-block w-25" alt="..." /></div>
+              <div class="carousel-item"><img src="assets/2021/IMG_20210226_162743.jpg" class="d-block w-25" alt="..." /></div>
+              <div class="carousel-item"><img src="assets/2021/IMG_20210402_115516.jpg" class="d-block w-25" alt="..." /></div>
+              <div class="carousel-item"><img src="assets/2021/IMG-20210430-WA0021.jpg" class="d-block w-25" alt="..." /></div>
+              <div class="carousel-item"><img src="assets/2021/IMG_20210919_143126.jpg" class="d-block w-25" alt="..." /></div>
+              <div class="carousel-item"><img src="assets/2021/IMG_20210315_134015.jpg" class="d-block w-25" alt="..." /></div>
+              <div class="carousel-item"><img src="assets/2021/IMG-20210730-WA0023.jpg" class="d-block w-25" alt="..." /></div>
+              <div class="carousel-item"><img src="assets/2021/1662995844022.jpg" class="d-block w-25" alt="..." /></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- akhir carousel -->
+        </div>
+      </div>
+    </div>
+    <!-- akhir section 2 -->
+    <hr class="border-2 border border-dark border1" />
+
+    <!-- section 3 -->
+    <!-- timeline year 3 -->
+    <div>
+      <h2 class="text-center my-5 fw-bold display-3" style="font-family: 'MS Madi', cursive; letter-spacing: 0.5rem">Year 3</h2>
+      <div class="timeline">
+        <div class="containertimeline left">
+          <p></p>
+          <div class="content">
+            <h2>Jan 2022</h2>
+            <p>It was the first time we had a studio photo together.</p>
+          </div>
+        </div>
+        <div class="containertimeline right">
+          <div class="content">
+            <h2>Jan 2022</h2>
+            <p>For the first time, we grilled some chicken and went on a picnic in the park. And this was also our final memory together before we both departed for internships and were separated. not though, with our hearts.</p>
+          </div>
+        </div>
+        <div class="containertimeline left">
+          <p></p>
+          <div class="content">
+            <h2>Aug 2022</h2>
+            <p>We ended up having a long distance relationship. Perhaps this is our phase of living independently, and it will serve as a test for a better life in the future.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end timeline year 3 -->
+
+    <div class="container text-center pt-xl-5 pb-5">
+      <div class="row">
+        <div class="col">
+          <div class="h2">2022</div>
+          <!-- carousel -->
+          <div id="carouselExampleDark3" class="carousel carousel-dark slide carousel-fade mb-2" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="7" aria-label="Slide 8"></button>
+              <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="8" aria-label="Slide 9"></button>
+              <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="9" aria-label="Slide 10"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active"><img src="assets/2022/SABRINA14.jpg" class="d-block w-25" alt="..." /></div>
+              <div class="carousel-item"><img src="assets/2022/VideoCapture_20220719-200713.jpg" class="d-block w-50" alt="..." /></div>
+              <div class="carousel-item"><img src="assets/2022/20220719_123058.jpg" class="d-block w-50" alt="..." /></div>
+              <div class="carousel-item"><img src="assets/2022/1662996785850.jpg" class="d-block w-25" alt="..." /></div>
+              <div class="carousel-item"><img src="assets/2022/1662996996313.jpg" class="d-block w-50" alt="..." /></div>
+              <div class="carousel-item"><img src="assets/2022/1662996996339.jpg" class="d-block w-50" alt="..." /></div>
+              <div class="carousel-item"><img src="assets/2022/IMG_20220719_132549.jpg" class="d-block w-25" alt="..." /></div>
+              <div class="carousel-item"><img src="assets/2022/IMG_20220702_143636.jpg" class="d-block w-25" alt="..." /></div>
+              <div class="carousel-item"><img src="assets/2022/1662996785889.jpg" class="d-block w-25" alt="..." /></div>
+              <div class="carousel-item"><img src="assets/2022/SABRINA6.jpg" class="d-block w-25" alt="..." /></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark3" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark3" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- akhir carousel -->
+        </div>
+      </div>
+    </div>
+    <!-- akhir section 3 -->
+    <!-- testing -->
+    <div class="waveanim">
+      <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 500" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+        <style>
+          .path-0 {
+            animation: pathAnim-0 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+          }
+          @keyframes pathAnim-0 {
+            0% {
+              d: path(
+                "M 0,500 C 0,500 0,166 0,166 C 97.37799043062202,143.66507177033492 194.75598086124404,121.33014354066987 295,128 C 395.24401913875596,134.66985645933013 498.3540669856459,170.3444976076555 590,198 C 681.6459330143541,225.6555023923445 761.8277511961722,245.2918660287081 849,223 C 936.1722488038278,200.7081339712919 1030.3349282296651,136.48803827751198 1130,120 C 1229.6650717703349,103.51196172248802 1334.8325358851675,134.755980861244 1440,166 C 1440,166 1440,500 1440,500 Z"
+              );
+            }
+            25% {
+              d: path(
+                "M 0,500 C 0,500 0,166 0,166 C 83.10047846889952,140.07655502392345 166.20095693779905,114.1531100478469 271,110 C 375.79904306220095,105.8468899521531 502.2966507177033,123.4641148325359 613,145 C 723.7033492822967,166.5358851674641 818.6124401913876,191.99043062200957 902,183 C 985.3875598086124,174.00956937799043 1057.2535885167463,130.57416267942585 1145,122 C 1232.7464114832537,113.42583732057415 1336.3732057416269,139.71291866028707 1440,166 C 1440,166 1440,500 1440,500 Z"
+              );
+            }
+            50% {
+              d: path(
+                "M 0,500 C 0,500 0,166 0,166 C 103.45454545454544,139.0334928229665 206.90909090909088,112.06698564593302 316,124 C 425.0909090909091,135.93301435406698 539.8181818181819,186.76555023923447 624,188 C 708.1818181818181,189.23444976076553 761.8181818181818,140.87081339712918 858,134 C 954.1818181818182,127.12918660287082 1092.909090909091,161.75119617224883 1197,174 C 1301.090909090909,186.24880382775117 1370.5454545454545,176.1244019138756 1440,166 C 1440,166 1440,500 1440,500 Z"
+              );
+            }
+            75% {
+              d: path(
+                "M 0,500 C 0,500 0,166 0,166 C 121.00478468899519,176.01913875598086 242.00956937799037,186.03827751196172 323,177 C 403.9904306220096,167.96172248803828 444.9665071770336,139.86602870813397 537,148 C 629.0334928229664,156.13397129186603 772.1244019138755,200.4976076555024 885,203 C 997.8755980861245,205.5023923444976 1080.5358851674641,166.14354066985646 1168,153 C 1255.4641148325359,139.85645933014354 1347.732057416268,152.92822966507177 1440,166 C 1440,166 1440,500 1440,500 Z"
+              );
+            }
+            100% {
+              d: path(
+                "M 0,500 C 0,500 0,166 0,166 C 97.37799043062202,143.66507177033492 194.75598086124404,121.33014354066987 295,128 C 395.24401913875596,134.66985645933013 498.3540669856459,170.3444976076555 590,198 C 681.6459330143541,225.6555023923445 761.8277511961722,245.2918660287081 849,223 C 936.1722488038278,200.7081339712919 1030.3349282296651,136.48803827751198 1130,120 C 1229.6650717703349,103.51196172248802 1334.8325358851675,134.755980861244 1440,166 C 1440,166 1440,500 1440,500 Z"
+              );
+            }
+          }
+        </style>
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop offset="5%" stop-color="#22577a"></stop>
+            <stop offset="95%" stop-color="#38a3a5"></stop>
+          </linearGradient>
+        </defs>
+        <path
+          d="M 0,500 C 0,500 0,166 0,166 C 97.37799043062202,143.66507177033492 194.75598086124404,121.33014354066987 295,128 C 395.24401913875596,134.66985645933013 498.3540669856459,170.3444976076555 590,198 C 681.6459330143541,225.6555023923445 761.8277511961722,245.2918660287081 849,223 C 936.1722488038278,200.7081339712919 1030.3349282296651,136.48803827751198 1130,120 C 1229.6650717703349,103.51196172248802 1334.8325358851675,134.755980861244 1440,166 C 1440,166 1440,500 1440,500 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="url(#gradient)"
+          fill-opacity="0.53"
+          class="transition-all duration-300 ease-in-out delay-150 path-0"
+        ></path>
+        <style>
+          .path-1 {
+            animation: pathAnim-1 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+          }
+          @keyframes pathAnim-1 {
+            0% {
+              d: path(
+                "M 0,500 C 0,500 0,333 0,333 C 65.9617224880383,351.72727272727275 131.9234449760766,370.45454545454544 242,360 C 352.0765550239234,349.54545454545456 506.26794258373195,309.90909090909093 610,291 C 713.732057416268,272.09090909090907 767.0047846889954,273.9090909090909 840,287 C 912.9952153110046,300.0909090909091 1005.7129186602872,324.45454545454544 1109,334 C 1212.2870813397128,343.54545454545456 1326.1435406698565,338.27272727272725 1440,333 C 1440,333 1440,500 1440,500 Z"
+              );
+            }
+            25% {
+              d: path(
+                "M 0,500 C 0,500 0,333 0,333 C 101.36842105263162,317.10526315789474 202.73684210526324,301.2105263157895 294,299 C 385.26315789473676,296.7894736842105 466.42105263157885,308.2631578947368 555,323 C 643.5789473684212,337.7368421052632 739.5789473684212,355.7368421052631 852,357 C 964.4210526315788,358.2631578947369 1093.2631578947367,342.7894736842106 1194,336 C 1294.7368421052633,329.2105263157894 1367.3684210526317,331.1052631578947 1440,333 C 1440,333 1440,500 1440,500 Z"
+              );
+            }
+            50% {
+              d: path(
+                "M 0,500 C 0,500 0,333 0,333 C 78.26794258373207,316.61722488038276 156.53588516746413,300.23444976076553 266,308 C 375.46411483253587,315.76555023923447 516.1244019138755,347.6794258373206 626,357 C 735.8755980861245,366.3205741626794 814.9665071770336,353.0478468899522 891,337 C 967.0334928229664,320.9521531100478 1040.0095693779906,302.12918660287085 1131,301 C 1221.9904306220094,299.87081339712915 1330.9952153110048,316.4354066985646 1440,333 C 1440,333 1440,500 1440,500 Z"
+              );
+            }
+            75% {
+              d: path(
+                "M 0,500 C 0,500 0,333 0,333 C 70.21052631578945,359.200956937799 140.4210526315789,385.40191387559804 236,391 C 331.5789473684211,396.59808612440196 452.52631578947364,381.5933014354067 575,368 C 697.4736842105264,354.4066985645933 821.4736842105264,342.2248803827751 901,334 C 980.5263157894736,325.7751196172249 1015.578947368421,321.50717703349284 1098,322 C 1180.421052631579,322.49282296650716 1310.2105263157896,327.7464114832536 1440,333 C 1440,333 1440,500 1440,500 Z"
+              );
+            }
+            100% {
+              d: path(
+                "M 0,500 C 0,500 0,333 0,333 C 65.9617224880383,351.72727272727275 131.9234449760766,370.45454545454544 242,360 C 352.0765550239234,349.54545454545456 506.26794258373195,309.90909090909093 610,291 C 713.732057416268,272.09090909090907 767.0047846889954,273.9090909090909 840,287 C 912.9952153110046,300.0909090909091 1005.7129186602872,324.45454545454544 1109,334 C 1212.2870813397128,343.54545454545456 1326.1435406698565,338.27272727272725 1440,333 C 1440,333 1440,500 1440,500 Z"
+              );
+            }
+          }
+        </style>
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop offset="5%" stop-color="#22577a"></stop>
+            <stop offset="95%" stop-color="#38a3a5"></stop>
+          </linearGradient>
+        </defs>
+        <path
+          d="M 0,500 C 0,500 0,333 0,333 C 65.9617224880383,351.72727272727275 131.9234449760766,370.45454545454544 242,360 C 352.0765550239234,349.54545454545456 506.26794258373195,309.90909090909093 610,291 C 713.732057416268,272.09090909090907 767.0047846889954,273.9090909090909 840,287 C 912.9952153110046,300.0909090909091 1005.7129186602872,324.45454545454544 1109,334 C 1212.2870813397128,343.54545454545456 1326.1435406698565,338.27272727272725 1440,333 C 1440,333 1440,500 1440,500 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="url(#gradient)"
+          fill-opacity="1"
+          class="transition-all duration-300 ease-in-out delay-150 path-1"
+        ></path>
+      </svg>
+    </div>
+    <!-- end testing -->
+
+    <script src="confetti.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>

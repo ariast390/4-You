@@ -1,0 +1,120 @@
+body {
+  font-family: "Rubik", sans-serif !important;
+}
+.jumbotron {
+  background-image: linear-gradient(to left top, #57cc99, #45c2a0, #38b8a4, #34aea6, #38a3a5);
+  padding: 10rem 0;
+}
+
+.ucapan {
+  padding: 8rem 0;
+  margin: 12rem 2rem;
+  background-color: #34aea6;
+  text-align: center;
+}
+
+#duar {
+  margin: 1rem 0;
+  margin-left: -2rem;
+  padding: 0 2rem;
+  /* background: #fff; */
+  /* padding-top: 1rem; */
+  /* box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175); */
+  /* border-radius: 100px; */
+  display: inline-block;
+  font-family: "Caveat", cursive;
+  font-size: 180px;
+  text-shadow: 10px 10px 9px rgba(0, 0, 0, 0.3);
+}
+
+#journeytext {
+  text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc, 1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee, 4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc, 4px 5px 1px #eeeeee,
+    6px 5px 1px #cccccc, 5px 6px 1px #eeeeee, 7px 6px 1px #cccccc, 25px 14px 4px rgba(115, 115, 115, 0.39);
+}
+
+#anivtext {
+  margin-left: -5rem;
+  padding: 0 1rem;
+  padding-top: 0.3rem;
+  background: #fff;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  border-radius: 100px;
+  display: inline-block;
+  font-family: "Ms Madi", cursive;
+  font-size: 4rem;
+}
+
+.confetti {
+  max-width: 100%;
+  z-index: 1;
+}
+
+.carousel img {
+  margin: auto;
+  max-height: 700px;
+}
+
+#QuoteSection {
+  padding: 1rem;
+}
+
+#quotebg {
+  background-color: #57cc99;
+}
+
+/* #sec1color {
+  background-color: #57cc99;
+  padding-top: -10rem !important;
+} */
+
+.border1 {
+  width: 35%;
+  margin: auto;
+}
+/* 
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} */
+
+.waveanim {
+  margin: -15rem 0;
+  position: relative;
+}
+
+#loveicon {
+  animation: loveicon 2s ease 0s infinite normal forwards;
+  color: #ee6055;
+  font-size: 12rem;
+  text-shadow: 10px 10px 9px rgba(0, 0, 0, 0.3);
+}
+@keyframes loveicon {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
